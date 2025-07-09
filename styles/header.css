@@ -1,0 +1,70 @@
+header h1,
+h4 {
+  color: #fff;
+}
+h1 {
+  font-size: 60px;
+}
+header h4 {
+  font-size: 25px;
+}
+header p {
+  color: #7a8eb5;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-top: 5%;
+  width: 50vw;
+  gap: 3vh;
+}
+
+.contatos {
+  display: flex;
+  gap: 1rem;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contatos img {
+  width: 40px;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contatos img:hover {
+  transform: scale(1.1);
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  width: 30vw;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+nav a:hover {
+  transform: scale(1.1);
+}
+
+header {
+  top: 0;
+  position: fixed;
+}
+
+h5 img {
+  width: 40px;
+  height: auto;
+}
+h5 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #fff;
+}
