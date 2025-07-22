@@ -68,3 +68,17 @@ h5 {
   align-items: center;
   color: #fff;
 }
+
+.habilidades {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "titulo titulo titulo titulo"
+    "habilidade1 habilidade2 habilidade3 habilidade4";
+  width: 30vw;
+  height: 20vh;
+}
+.habilidades h2 {
+  grid-area: titulo;
+}
